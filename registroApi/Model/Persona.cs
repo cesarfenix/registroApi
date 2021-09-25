@@ -13,5 +13,10 @@ namespace registroApi.Model
         public string nombre { get; set; }
         public string correo { get; set; }
         public DateTime fechaNacimiento { get; set; }
+
+        public string documento { get; set; }
+        public String nacionalidad { get; set; }
+        public char genero { get; set; }
+
     }
 }
